@@ -55,10 +55,10 @@
 }
 /* -------HEADER------- */
 
-.banners {
+/* .banners {
     width: 100%;
     box-shadow: 0px 14px 20px 2px rgb(29, 29, 29);
-}
+} */
 
 /* -------BODY------- */
 
@@ -68,25 +68,36 @@ body {
 
 /* -------HOME------- */
 
+.info {
+    background-image: url('../imagenes/banner-home.jpg');
+    background-size: cover;
+    height: 1000px;
+}
+
+.quienes-somos {
+    padding: 200px 200px 200px 280px;
+}
+
 .info h1 {
     text-align: center;
     font-family: Montserrat, sans-serif;
     font-size: 4rem;
-    padding: 2rem 0 2rem 0;
-    color: #ffffff;
+    padding: 1rem 0;
+    color: #000000;
+    font-weight: 600;
 }
 
 .info p {
     text-align: center;
-    padding: 20px 50px;
-    margin: 0 16rem 1rem 16rem;
-    border: 3px solid black;
-    border-radius: 100px;
+    padding: 10px 50px;
+    margin: 0 16rem;
+    /* border: 3px solid black;
+    border-radius: 100px; */
     font-family: Hind, sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    box-shadow: 9px 6px 7px 0px rgb(29, 29, 29);
-    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+    /* box-shadow: 9px 6px 7px 0px rgb(29, 29, 29); */
+    color: #000000;
 }
 
 /* -------PELICULAS Y SERIES------- */
