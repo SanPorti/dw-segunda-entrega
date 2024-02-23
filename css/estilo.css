@@ -1,0 +1,434 @@
+/* -------TIPOGRAFIAS------- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&display=swap');
+
+/* -------RESET------- */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* -------ANCHO MAXIMO------- */
+
+.ancho-maximo {
+    max-width: 1800px;
+    margin: auto;
+}
+
+/* -------NAV------- */
+
+.logo-size {
+    width: 150px;
+}
+
+.nav-fuente {
+    font-family: Montserrat, sans-serif;
+    font-size: 25px;
+}
+
+.nav-padding {
+    padding: 30px;
+}
+
+.flex-nav-list {
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+}
+
+.burguer {
+    color: #ffffff;
+    font-size: 30px;
+    padding: 20px;
+}
+
+/* HOVER NAV */
+.nav-link:hover {
+    color: #e7a02e !important; 
+    transition: 0.7s;
+}
+
+.burguer:hover {
+    color: #e7a02e; 
+    transition: 0.7s;
+}
+/* -------HEADER------- */
+
+.banners {
+    width: 100%;
+    box-shadow: 0px 14px 20px 2px rgb(29, 29, 29);
+}
+
+/* -------BODY------- */
+
+body {
+    background-color: #38365f;
+}
+
+/* -------HOME------- */
+
+.info h1 {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 4rem;
+    padding: 2rem 0 2rem 0;
+    color: #ffffff;
+}
+
+.info p {
+    text-align: center;
+    padding: 20px 50px;
+    margin: 0 16rem 1rem 16rem;
+    border: 3px solid black;
+    border-radius: 100px;
+    font-family: Hind, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 9px 6px 7px 0px rgb(29, 29, 29);
+    color: #ffffff;
+}
+
+/* -------PELICULAS Y SERIES------- */
+
+.div-posters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.section-peliculas-series h2 {
+    font-family: Montserrat, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.posters {
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 10px 35px;
+    background-color: #000000;
+    width: 350px;
+    height: 493px;
+}
+
+.posters img {
+    width: 340px;
+    height: 450px;
+}
+
+.posters h3 {
+    font-family: Hind, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: white;
+    padding-top: 5px;
+}
+
+/* HOVER POSTERS */
+.posters:hover {
+    border-color: #e7a02e;
+    box-shadow: 5px 5px 5px 5px rgb(29, 29, 29);
+    transition: 0.5s;
+}
+
+/* -------PROXIMOS ESTRENOS------- */
+
+.medida-iframe {
+    width: 600px;
+    height: 400px;
+}
+
+.section-trailers h1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.div-trailers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.trailers {
+    margin: 25px 50px;
+    width: 630px;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.trailers h2 {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding: 0 0 1rem 0;
+    color: #ffffff;
+}
+
+.sinopsis h3 {
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding: 1rem 0 0 0;
+    color: #ffffff;
+}
+
+.sinopsis p {
+    padding: 1rem 0 0 0;
+    text-align: justify;
+    font-family: Hind, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/* --------TRAILERS:HOVER-------- */
+
+.trailers:hover {
+    border-color: #e7a02e;
+    box-shadow: 0px 0px 20px 10px rgb(29, 29, 29);
+    transition: 0.7s;
+}
+
+/* ------NOTICIAS------ */
+
+.novedades h1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.noticias {
+    display: flex; 
+    flex-direction: column;
+    padding: 20px 0 0 20px ;
+    margin: 10px;
+}
+
+.noticias h2 {
+    font-family: Hind, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.noticias h3 {
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.grilla-noticias {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr;
+    grid-template-rows: 500px 400px;
+    grid-template-areas:
+        "noticia1 noticia1 noticia4 noticia4"
+        "noticia2 noticia3 noticia4 noticia4";
+    padding: 50px; 
+    width: 1500px;
+    margin: auto;
+}
+
+#noticia1 {
+    grid-area: noticia1;
+    background-image: url('../imagenes/noticias-oscars.jpg');
+    background-size: cover;
+}
+
+#noticia2 {
+    grid-area: noticia2;
+    background-image: url('../imagenes/noticias-murphy.jpg');
+    background-size: cover;
+}
+
+#noticia3 {
+    grid-area: noticia3;
+    background-image: url('../imagenes/noticia-poor-things.jpg');
+    background-size: cover;
+}
+
+#noticia4 {
+    grid-area: noticia4;
+    background-image: url('../imagenes/noticia-tom-holland.webp');
+    background-size: cover;
+}
+
+/* -------NOTICIAS HOVER------- */
+
+.noticias:hover {
+    border: 3px solid #e7a02e;
+    box-shadow: 0px 0px 20px 10px rgb(29, 29, 29);
+    transition: 0.4s;
+}
+
+/* -------CONTACTO------- */
+
+.contacto {
+    padding: 20px;
+}
+
+.comunidad {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.comunidad h1 {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 4rem;
+    padding: 2rem 0 2rem 0;
+    color: #ffffff;
+}
+
+.comunidad p {
+    text-align: center;
+    font-family: Hind, sans-serif;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+form {
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+form label {
+    margin: 1rem;
+}
+
+/* -------FOOTER------- */
+footer {
+    background-color: black;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer ul {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    margin: 0 70px;
+    font-family: Montserrat, sans-serif;
+}
+
+/* HOVER FOOTER */
+footer a:hover {
+    color: #e7a02e;
+    transition: 0.7s;
+}
+
+/* -------MEDIAS QUERYS - MOBILE LAST------- */
+
+@media (max-width: 450px) {  
+
+    /* -------NAV------- */
+
+    .logo-size {
+        width: 70px;
+    }
+
+    .container-fluid {
+        width: 350px;
+    }
+
+    #navbarNav ul li {
+        padding: 5px;
+    }
+
+    #navbarNav ul li a {
+        font-size: 16px;
+    }
+
+    /* -------PELICULAS Y SERIES------- */
+    .div-posters {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .posters {
+        border: 5px solid black;
+        border-radius: 10px;
+        margin: 10px 35px;
+        background-color: #000000;
+        width: 250px;
+        height: 390px;
+    }
+
+    .posters img {
+        width: 240px;
+        height: 350px;
+    }
+
+    .posters h3 {
+        font-family: Hind, sans-serif;
+        font-weight: 500;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 16px;
+        color: white;
+        padding-top: 10px; 
+    }
+
+    .section-peliculas-series h2 {
+        font-family: Montserrat, sans-serif;
+        font-size: 25px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 20px;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    /* -------FOOTER------- */
+    footer a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        margin: 0 30px;
+        font-family: Montserrat, sans-serif;
+    }
+    
+    }
