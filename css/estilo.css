@@ -46,6 +46,7 @@
 /* HOVER NAV */
 .nav-link:hover {
     color: #e7a02e !important; 
+    text-decoration: underline;
     transition: 0.7s;
 }
 
@@ -53,12 +54,6 @@
     color: #e7a02e; 
     transition: 0.7s;
 }
-/* -------HEADER------- */
-
-/* .banners {
-    width: 100%;
-    box-shadow: 0px 14px 20px 2px rgb(29, 29, 29);
-} */
 
 /* -------BODY------- */
 
@@ -91,12 +86,9 @@ body {
     text-align: center;
     padding: 10px 50px;
     margin: 0 16rem;
-    /* border: 3px solid black;
-    border-radius: 100px; */
     font-family: Hind, sans-serif;
     font-size: 22px;
     font-weight: 600;
-    /* box-shadow: 9px 6px 7px 0px rgb(29, 29, 29); */
     color: #000000;
 }
 
@@ -398,6 +390,10 @@ footer a:hover {
         font-size: 16px;
     }
 
+    .flex-nav-list {
+        justify-content: flex-start;
+        padding-left: 1rem;
+    }
     /* -------PELICULAS Y SERIES------- */
 
     .posters {
