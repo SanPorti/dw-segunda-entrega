@@ -511,6 +511,48 @@ footer a:hover {
         background-size: cover;
     }
 
+    /* -------CONTACTO------- */
+
+    .contacto {
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .card {
+        width: 300px;
+        padding: 5px;
+        margin: 10px;
+    }
+    
+    .card h5 {
+        text-align: center;
+        font-size: 1rem;
+    }
+    
+    .card p {
+        text-align: center;
+        font-size: 14px;
+        padding-top: 5px;
+    }
+    
+    form {
+        width: 300px;
+        text-align: center;
+        font-size: 1rem;
+        padding: 5px;
+    }
+    
+    form label {
+        margin: 10px;
+    }
+    
+    .boton-size {
+        font-size: 14px;
+    }
+
     /* -------FOOTER------- */
     footer a {
         text-decoration: none;
