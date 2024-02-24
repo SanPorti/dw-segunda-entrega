@@ -33,7 +33,7 @@
 
 .flex-nav-list {
     width: 100%;
-    display: flex; 
+    display: flex;
     justify-content: center;
 }
 
@@ -45,13 +45,13 @@
 
 /* HOVER NAV */
 .nav-link:hover {
-    color: #e7a02e !important; 
+    color: #e7a02e !important;
     text-decoration: underline;
     transition: 0.7s;
 }
 
 .burguer:hover {
-    color: #e7a02e; 
+    color: #e7a02e;
     transition: 0.7s;
 }
 
@@ -67,6 +67,7 @@ body {
     background-image: url('../imagenes/banner-home.jpg');
     background-size: cover;
     height: 1000px;
+    margin: 5px 0;
 }
 
 .quienes-somos {
@@ -77,9 +78,10 @@ body {
     text-align: center;
     font-family: Montserrat, sans-serif;
     font-size: 4rem;
-    padding: 1rem 0;
+    padding: 1.5rem 0 1rem 0;
     color: #000000;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 .info p {
@@ -88,8 +90,12 @@ body {
     margin: 0 16rem;
     font-family: Hind, sans-serif;
     font-size: 22px;
-    font-weight: 600;
+    font-weight: 500;
     color: #000000;
+}
+
+.fdc .card {
+    display: none;
 }
 
 /* -------PELICULAS Y SERIES------- */
@@ -220,9 +226,9 @@ body {
 }
 
 .noticias {
-    display: flex; 
+    display: flex;
     flex-direction: column;
-    padding: 20px 0 0 20px ;
+    padding: 20px 0 0 20px;
     margin: 10px;
 }
 
@@ -250,7 +256,7 @@ body {
     grid-template-areas:
         "noticia1 noticia1 noticia4 noticia4"
         "noticia2 noticia3 noticia4 noticia4";
-    padding: 50px; 
+    padding: 50px;
     width: 1500px;
     margin: auto;
 }
@@ -370,7 +376,7 @@ footer a:hover {
 
 /* -------MEDIAS QUERYS - MOBILE LAST------- */
 
-@media (max-width: 450px) {  
+@media (max-width: 450px) {
 
     /* -------NAV------- */
 
@@ -394,6 +400,41 @@ footer a:hover {
         justify-content: flex-start;
         padding-left: 1rem;
     }
+
+    /* -------HOME/FDC------- */
+
+    .fdc .info {
+        display: none;
+    }
+    
+    .fdc img {
+        padding: 10px;
+    }
+
+    .fdc .card {
+        display: block;
+        margin: 10px auto;
+        background-color: #38365f;
+        border: none;
+    }
+
+    .fdc h1 {
+        text-align: center;
+        font-family: Montserrat, sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+
+    .fdc p {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 500;
+        color: #ffffff;
+        margin-top: 1rem;
+    }
+
     /* -------PELICULAS Y SERIES------- */
 
     .posters {
@@ -408,7 +449,7 @@ footer a:hover {
 
     .posters h3 {
         font-size: 16px;
-        padding-top: 10px; 
+        padding-top: 10px;
     }
 
     .section-peliculas-series h2 {
@@ -445,7 +486,7 @@ footer a:hover {
     }
 
     .medida-iframe {
-        max-width:  280px;
+        max-width: 280px;
         max-height: 200px;
     }
 
@@ -462,7 +503,7 @@ footer a:hover {
         margin: 0;
         text-align: center;
     }
-    
+
     .grilla-noticias {
         display: flex;
         flex-wrap: wrap;
@@ -470,7 +511,7 @@ footer a:hover {
         margin: 10px auto;
         padding: 5px;
     }
-    
+
     .noticias h2 {
         font-size: 1rem;
     }
@@ -485,21 +526,21 @@ footer a:hover {
         background-image: url('../imagenes/estatuilla-oscarjpg.jpg');
         background-size: cover;
     }
-    
+
     #noticia2 {
         width: 300px;
         height: 300px;
         background-image: url('../imagenes/cillian.jpeg');
         background-size: cover;
     }
-    
+
     #noticia3 {
         width: 300px;
         height: 300px;
         background-image: url('../imagenes/emma.jpg');
         background-size: cover;
     }
-    
+
     #noticia4 {
         width: 300px;
         height: 300px;
@@ -516,35 +557,35 @@ footer a:hover {
         align-items: center;
         margin: auto;
     }
-    
+
     .card {
         width: 300px;
         padding: 5px;
         margin: 10px;
     }
-    
+
     .card h5 {
         text-align: center;
         font-size: 1rem;
     }
-    
+
     .card p {
         text-align: center;
         font-size: 14px;
         padding-top: 5px;
     }
-    
+
     form {
         width: 300px;
         text-align: center;
         font-size: 1rem;
         padding: 5px;
     }
-    
+
     form label {
         margin: 10px;
     }
-    
+
     .boton-size {
         font-size: 14px;
     }
@@ -557,5 +598,5 @@ footer a:hover {
         margin: 0 30px;
         font-family: Montserrat, sans-serif;
     }
-    
-    }
+
+}
