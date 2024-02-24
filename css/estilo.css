@@ -298,36 +298,39 @@ body {
 /* -------CONTACTO------- */
 
 .contacto {
-    padding: 20px;
+    display: flex;
+    width: 1800px;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.comunidad {
-    width: 1200px;
-    margin: auto;
+.card {
+    width: 700px;
+    padding: 10px;
+    margin: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.comunidad h1 {
+.card h5 {
     text-align: center;
     font-family: Montserrat, sans-serif;
-    font-size: 4rem;
-    padding: 2rem 0 2rem 0;
-    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000000;
 }
 
-.comunidad p {
+.card p {
     text-align: center;
     font-family: Hind, sans-serif;
-    font-size: 2rem;
-    color: #ffffff;
+    font-size: 25px;
+    color: #000000;
+    padding-top: 1rem;
 }
 
 form {
-    width: 600px;
-    margin: auto;
-    padding: 10px;
+    width: 700px;
     text-align: center;
     font-family: Montserrat, sans-serif;
     font-size: 30px;
@@ -336,6 +339,10 @@ form {
 
 form label {
     margin: 1rem;
+}
+
+.boton-size {
+    font-size: 20px;
 }
 
 /* -------FOOTER------- */
