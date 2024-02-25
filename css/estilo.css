@@ -568,6 +568,7 @@ footer a:hover {
         width: 300px;
         align-items: center;
         margin: auto;
+        align-content: center;
     }
 
     .card {
