@@ -1,0 +1,94 @@
+/* -------CONTACTO------- */
+
+.contacto {
+    display: flex;
+    width: 1800px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    width: 700px;
+    padding: 10px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card h5 {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000000;
+}
+
+.card p {
+    text-align: center;
+    font-family: Hind, sans-serif;
+    font-size: 25px;
+    color: #000000;
+    padding-top: 1rem;
+}
+
+form {
+    width: 700px;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+form label {
+    margin: 1rem;
+}
+
+.boton-size {
+    font-size: 20px;
+}
+
+@media (max-width: 450px) {
+
+    .contacto {
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+        align-items: center;
+        margin: auto;
+        align-content: center;
+    }
+
+    .card {
+        width: 300px;
+        padding: 5px;
+        margin: 10px;
+    }
+
+    .card h5 {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .card p {
+        text-align: center;
+        font-size: 14px;
+        padding-top: 5px;
+    }
+
+    form {
+        width: 300px;
+        text-align: center;
+        font-size: 1rem;
+        padding: 5px;
+    }
+
+    form label {
+        margin: 10px;
+    }
+
+    .boton-size {
+        font-size: 14px;
+    }
+
+}
