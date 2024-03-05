@@ -382,6 +382,20 @@ body {
   width: 1800px;
   justify-content: space-around;
   align-items: center; }
+  .contacto .contenido-vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .contacto .contenido-vertical h1 {
+      font-family: Montserrat, sans-serif;
+      font-size: 50px;
+      font-weight: 600;
+      text-transform: uppercase;
+      padding: 50px 20px 20px 20px;
+      margin: 0 190px;
+      color: #ffffff; }
+  .contacto .contenido-horizontal {
+    display: flex; }
 
 .card {
   width: 700px;
@@ -410,6 +424,7 @@ form {
   text-align: center;
   font-family: Montserrat, sans-serif;
   font-size: 30px;
+  margin: 30px;
   color: #ffffff; }
 
 form label {
@@ -426,6 +441,19 @@ form label {
     align-items: center;
     margin: auto;
     align-content: center; }
+    .contacto .contenido-vertical {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .contacto .contenido-vertical h1 {
+        font-size: 25px;
+        padding: 30px 0 0 0;
+        margin: 0 25px 20px 25px;
+        text-align: center; }
+    .contacto .contenido-horizontal {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
   .card {
     width: 300px;
     padding: 5px;

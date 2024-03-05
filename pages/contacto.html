@@ -57,33 +57,38 @@
         <main>
 
             <div class="contacto">
-                <div class="card">
-                    <img src="../imagenes/banner-contacto.jpg" class="card-img-top" alt="Contactanos">
-                    <div class="card-body">
-                        <h5 class="card-title">¿Quéres formar parte de la comunidad de FDC?</h5>
-                        <p class="card-text">Comunicate con nosotros, contanos porque queres formar parte y que podrias
-                            aportar a
-                            nuestra comunidad. ¡Te esperamos!</p>
+                <div class="contenido-vertical">
+                    <h1>Contacto</h1>
+                    <div class="contenido-horizontal">
+                        <div class="card">
+                            <img src="../imagenes/banner-contacto.jpg" class="card-img-top" alt="Contactanos">
+                            <div class="card-body">
+                                <h5 class="card-title">¿Quéres formar parte de la comunidad de FDC?</h5>
+                                <p class="card-text">Comunicate con nosotros, contanos porque queres formar parte y que podrias
+                                    aportar a
+                                    nuestra comunidad. ¡Te esperamos!</p>
+                            </div>
+                        </div>   
+                        <!-- Formulario -->
+                        <section class="section-formulario">
+                            <form action="#" method="get">
+                                <label class="form-label" for="nombre">Nombre Completo</label>
+                                <input placeholder="👤 Nombre y Apellido" class="form-control" type="text" id="nombre"
+                                    name="nombre">
+                                <label class="form-label" for="correo">Correo</label>
+                                <input placeholder="📧 ejemplo@ejemplo.com" class="form-control" type="email" id="correo"
+                                    name="correo">
+                                <label class="form-label" for="asunto">Asunto</label>
+                                <input placeholder="🎬 Quiero sumarme a FDC!" class="form-control" type="text" id="asunto"
+                                    name="asunto">
+                                <label class="form-label" for="mensaje">Mensaje</label>
+                                <textarea placeholder="⚡ Tú Mensaje" class="form-control" type="text" id="mensaje" name="mensaje"
+                                    rows="10"></textarea>
+                                <input class="boton-size" type="submit">
+                            </form>
+                        </section>
                     </div>
-                </div>   
-                <!-- Formulario -->
-                <section class="section-formulario">
-                    <form action="#" method="get">
-                        <label class="form-label" for="nombre">Nombre Completo</label>
-                        <input placeholder="👤 Nombre y Apellido" class="form-control" type="text" id="nombre"
-                            name="nombre">
-                        <label class="form-label" for="correo">Correo</label>
-                        <input placeholder="📧 ejemplo@ejemplo.com" class="form-control" type="email" id="correo"
-                            name="correo">
-                        <label class="form-label" for="asunto">Asunto</label>
-                        <input placeholder="🎬 Quiero sumarme a FDC!" class="form-control" type="text" id="asunto"
-                            name="asunto">
-                        <label class="form-label" for="mensaje">Mensaje</label>
-                        <textarea placeholder="⚡ Tú Mensaje" class="form-control" type="text" id="mensaje" name="mensaje"
-                            rows="10"></textarea>
-                        <input class="boton-size" type="submit">
-                    </form>
-                </section>
+                </div>
             </div> 
         </main>
     </div>
